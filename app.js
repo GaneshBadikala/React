@@ -1,32 +1,20 @@
 import React from "react";
-import  ReactDOM  from "react-dom";
+import  ReactDOM  from "react-dom/client";
+
+var Heading =()=>{return <h2 id="h"> hey </h2>}
+ // transpiled using babel by parcel
 
 
+// component
 
-const heading = React.createElement(
-    "h1",
-    {
-      id: "title",
-    },
-    "Heading 1"
-  );
-  
-
-  
-  const container = React.createElement(
-    "div",
-    {
-      id: "container",
-    },
-    [heading]
-  );
-  
-  console.log(heading);
-  
-  const root = ReactDOM.createRoot(document.getElementById("root"));
-  
-  //passing a react element inside the root
-  
-  //async defer
-  root.render(container);
+const HeadingComponent = ()=>{
+    
+    return <div id="he"> 
+    {Heading()}
+    < Heading />
+    <h1 id="justheading">  hey component </h1></div>
+    
+}
+const root = ReactDOM.createRoot(document.getElementById("root"))
+root.render(<HeadingComponent />)
    
