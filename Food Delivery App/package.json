@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "react-dom": "^18.3.1"
+  },
+  "name": "react",
+  "version": "1.0.0",
+  "devDependencies": {
+    "parcel": "^2.13.0",
+    "process": "^0.11.10",
+    "react": "^18.3.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "parcel ./src/app.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaneshBadikala/React.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Ganesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaneshBadikala/React/issues"
+  },
+  "homepage": "https://github.com/GaneshBadikala/React#readme",
+  "description": ""
+}

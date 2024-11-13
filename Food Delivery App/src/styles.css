@@ -1,0 +1,80 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(202, 199, 199);
+    border-radius: 5px;
+    margin: 10px;
+    align-items: center;
+}
+#logo{
+    width: 50;
+}
+ul{display: flex;
+justify-content: space-between;
+width:40%;
+}
+.mainBody{
+  
+    margin: 40px;
+
+}
+.res-container{    justify-content: space-around;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+#searchButton:hover{
+cursor: pointer;
+}
+.res-card{
+cursor: pointer;
+margin: 20px;
+width: 200px;
+padding: 20px;
+}
+.res-card:hover{
+    cursor: pointer;
+border:1px solid #f0f0f0;
+ border-radius: 5px;}
+.res-images{
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    margin: 10px 0px 10px 0px;
+}
+.searchContainer{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.spans{
+margin: 3px;
+}
+.searchBar{
+    display: flex;
+    justify-content: space-around; 
+    width: 70%;
+}
+.searchValue{
+    font-size: 1.15rem;
+    line-height: 24px;
+    width: 60%;
+    height: 100%;
+    outline: 0;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: inherit;
+    color: inherit;
+    background: inherit;
+    vertical-align: middle;
+    font-weight: 500;    
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+}
+*{
+
+    color: #3d4152;
+    letter-spacing: -.3px;
+    font-family: ProximaNovaExtraBold, arial, Helvetica Neue, sans-serif;
+}
